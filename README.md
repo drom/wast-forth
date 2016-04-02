@@ -1,3 +1,4 @@
+[![Build Status](https://travis-ci.org/drom/wast-forth.svg?branch=master)](https://travis-ci.org/drom/wast-forth)
 # wast-forth
 
 WebAssembly AST :point_right: Forth

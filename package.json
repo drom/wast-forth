@@ -1,0 +1,33 @@
+{
+  "name": "wast-forth",
+  "version": "0.0.1",
+  "description": "WebAssembly to Forth transpiler",
+  "main": "lib/",
+  "scripts": {
+    "test": "eslint **/*.js && istanbul cover ./node_modules/mocha/bin/_mocha test"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/drom/wast-forth.git"
+  },
+  "keywords": [
+    "WAST",
+    "Forth"
+  ],
+  "author": "Aliaksei Chapyzhenka",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/drom/wast-forth/issues"
+  },
+  "homepage": "https://github.com/drom/wast-forth#readme",
+  "devDependencies": {
+    "chai": "^3.5.0",
+    "eslint": "^2.6.0",
+    "istanbul": "^0.4.2",
+    "mocha": "^2.4.5",
+    "wast-parser": "^0.17.0"
+  },
+  "dependencies": {
+    "wast-traverse": "^0.7.0"
+  }
+}

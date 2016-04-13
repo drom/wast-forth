@@ -1,0 +1,3 @@
+[submodule "wast-parser"]
+	path = wast-parser
+	url = git://github.com/drom/wast-parser.git

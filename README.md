@@ -27,3 +27,5 @@ var p = require('wast-praser').parse,
 console.log(g(p('(module )')));
 // =>
 ```
+
+http://www.complang.tuwien.ac.at/anton/euroforth/ef13/papers/ertl-paf.pdf

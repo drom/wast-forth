@@ -1,12 +1,12 @@
-stack (before -- after),Forth,JVM,JVM opcode,CIL,CIL opcode
-a -- a a,dup,dup,89,dup,37
-a b -- b a b,tuck,dup_x1,90,,
-a b c -- c a b c,,dup_x2,91,,
-a b -- a b a b,2dup,dup2,92,,
-a b c -- b c a b c,,dup2_x1,93,,
-a b c d --c d a b c d,,dup2_x2,94,,
-a --,drop,pop,87,pop,38
-a b --,drop drop,pop2,88,,
-a b -- b a,swap,swap,95,,
-a b -- a b a,over,,,,
-a b c -- b c a,rot,,,,
+stack (before -- after),Forth,FCode opcode,JVM,JVM opcode,CIL,CIL opcode
+a -- a a,dup,47,dup,89,dup,37
+a b -- b a b,tuck,,dup_x1,90,,
+a b c -- c a b c,,,dup_x2,91,,
+a b -- a b a b,2dup,,dup2,92,,
+a b c -- b c a b c,,,dup2_x1,93,,
+a b c d --c d a b c d,,,dup2_x2,94,,
+a --,drop,,pop,87,pop,38
+a b --,drop drop,,pop2,88,,
+a b -- b a,swap,,swap,95,,
+a b -- a b a,over,,,,,
+a b c -- b c a,rot,,,,,

@@ -3,3 +3,4 @@ WASM,Forth
 get_local 5,5@
 set_local 7,7!
 tee_local 32,over 32!
+call $foo,$foo

@@ -8,7 +8,7 @@ a b c d --c d a b c d,,,dup2_x2,94,,
 a --,drop,0x46,pop,87,pop,38
 a b --,2drop,0x52,pop2,88,,
 a b -- b a,swap,0x49,swap,95,,
-a b c d -- c d a b,2swap,44,,,
+a b c d -- c d a b,2swap,44,,,,
 a b -- a b a,over,0x48,,,,
 a b c d -- a b c d a b,2over,0x54,,,,
 a b c -- b c a,rot,0x4A,,,,

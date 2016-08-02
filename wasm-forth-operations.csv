@@ -6,3 +6,29 @@ tee_local 32,over 32!
 call $foo,$foo
 call_indirect,
 call_import $foo,$foo
+,
+i32.load8_s,i32.s8@
+i32.load8_u,i32.u8@
+i32.load16_s,i32.s16@
+i32.load16_u,i32.u16@
+i64.load8_s,i64.s8@
+i64.load8_u,i64.u8@
+i64.load16_s,i64.s16@
+i64.load16_u,i64.u16@
+i64.load32_s,i64.s32@
+i64.load32_u,i64.u32@
+i32.load,i32@
+i64.load,i64@
+f32.load,f32@
+f64.load,f64@
+i32.store8,i32.i8!
+i32.store16,i32.i16!
+i64.store8,i64.i8!
+i64.store16,i64.i16!
+i64.store32,i64.i32!
+i32.store,i32!
+i64.store,i64!
+f32.store,f32!
+f64.store,f64!
+current_memory,
+grow_memory,

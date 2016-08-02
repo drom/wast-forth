@@ -8,5 +8,5 @@ a b c d --c d a b c d,,dup2_x2,94
 a --,drop,pop,87
 a b --,drop drop,pop2,88
 a b -- b a,swap,swap,95
-a b -- a b a,over
-a b c -- b c a,rot
+a b -- a b a,over,,
+a b c -- b c a,rot,,

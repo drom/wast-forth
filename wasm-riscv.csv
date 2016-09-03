@@ -24,4 +24,13 @@ SLL,i32.shl,
 SRL,i32.shr_u,
 SUB,i32.sub,
 SRA,i32.shr_s,
+,,
+,i32.mul,
+,i32.div_s,
+,i32.div_u,
+,i32.rem_s,
+,i32.rem_u,
+,i32.rotr,
+,i32,rotl,
+
 

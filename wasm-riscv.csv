@@ -1,0 +1,11 @@
+RV32I,wasm,note
+I-type,,
+ADDI,i32.add,
+SLTI,i32.gt,
+SLTU,i32.gtu,
+ANDI,i32.and,
+ORI,i32.or,
+XORI,i32.xor,
+SLLI,,
+SRLI,,
+SRAI,,

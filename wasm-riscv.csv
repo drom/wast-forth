@@ -14,7 +14,7 @@ SRAI imm5,i32.shr_s,
 LUI imm20,,load upper immediate
 AUIPC imm20,,add upper immediate to pc
 R-type,,
-ADD,,i32.add
+ADD,i32.add,
 SLT,i32.gt_s,
 SLTU,i32.gt_u,
 AND,i32.and,

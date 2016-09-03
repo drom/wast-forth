@@ -1,11 +1,17 @@
 RV32I,wasm,note
 I-type,,
-ADDI,i32.add,
-SLTI,i32.gt,
-SLTU,i32.gtu,
-ANDI,i32.and,
-ORI,i32.or,
-XORI,i32.xor,
-SLLI,,
-SRLI,,
-SRAI,,
+ADDI imm12,i32.add,
+SLTI imm12,i32.gt_s,
+SLTU imm12,i32.gt_u,
+ANDI imm12,i32.and,
+ORI imm12,i32.or,
+XORI imm12,i32.xor,
+,,
+SLLI imm5,i32.shl,
+SRLI imm5,i32.shr_u,
+SRAI imm5,i32.shr_s,
+,,
+LUI imm20,,load upper immediate
+AUIPC imm20,,add upper immediate to pc
+R-type,,
+

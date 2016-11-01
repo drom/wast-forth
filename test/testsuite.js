@@ -2,7 +2,7 @@
 
 var fs = require('fs'),
     path = require('path'),
-    g = require('../lib/').genforth,
+    g = require('../lib/').genstack,
     // expect = require('chai').expect,
     jsof = require('jsof');
 
@@ -27,7 +27,7 @@ describe('codegen', function () {
                         if (err) { throw err; }
                         ast = jsof.p(jsData);
                         var res = g(ast);
-                        console.log(res + '\n\n');
+                        console.log(res + '\n\n\n');
                         done();
                     }
                 );
